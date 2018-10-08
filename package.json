@@ -1,0 +1,31 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "RESTful API in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaiswala-usc/node-rest-api.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "api"
+  ],
+  "author": "Abhishek Jaiswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaiswala-usc/node-rest-api/issues"
+  },
+  "homepage": "https://github.com/jaiswala-usc/node-rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
